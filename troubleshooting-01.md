@@ -1,9 +1,9 @@
 # Инфраструктура
 | server_name  | public_ipv4 | OS | role |
 | ------------- | ------------- | ------------- | ------------- |
-| scout-server-1  | 89.169.188.109  | Ubuntu 24.04 | database server |
-| scout-server-2  | 89.169.176.179  | Debian 12 | app server |
-| scout-server-3 | 89.169.181.82 | Debian 11 | web server |
+| scout-compute-1  | 62.84.122.213  | Ubuntu 24.04 | database server |
+| scout-compute-2  | 89.169.180.122  | Debian 12 | app server |
+| scout-compute-3 | 89.169.166.157 | Debian 11 | web server |
 
 # Проект
 ## MTB & Downhill Blog
