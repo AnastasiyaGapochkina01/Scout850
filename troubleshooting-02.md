@@ -8,8 +8,8 @@
 ## Инфраструктура
 | Сервер | Public IP | Роль |
 | :---: | :---: | :---: |
-| compute-vm-1 | 89.169.176.159 | database-server |
-| compute-vm-2 | 89.169.184.162 | application-server |
+| compute-vm-1 | 89.169.189.121 | database-server |
+| compute-vm-2 | 89.169.189.41 | application-server |
 
 Приложение запущено как systemd-unit `user-manager.service`, слушает порт 8080.
 
