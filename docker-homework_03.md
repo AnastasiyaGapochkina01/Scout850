@@ -37,6 +37,7 @@ if __name__ == "__main__":
 
 ```
 в requirements.txt будет только flask
+
 2) запустить в docker приложение 
 ```golang
 package main
