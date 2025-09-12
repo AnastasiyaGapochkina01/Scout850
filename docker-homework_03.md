@@ -66,9 +66,7 @@ var books = []Book{
 }
 
 func booksHandler(w http.ResponseWriter, r *http.Request) {
-	// Генерируем случайное количество книг от 1 до len(books)
 	count := rand.Intn(len(books)) + 1
-	// Создаем срез для ответных книг и уникальные id
 	responseBooks := make([]Book, count)
 	for i := 0; i < count; i++ {
 		b := books[rand.Intn(len(books))]
@@ -90,7 +88,7 @@ func main() {
 3) запустить в docker приложение
 ```php
 <?php
-// Динамическое определение времени суток
+
 $hour = (int) date('H');
 if ($hour < 6) {
     $greeting = "Доброй ночи!";
